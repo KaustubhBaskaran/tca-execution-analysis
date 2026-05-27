@@ -22,19 +22,6 @@ TCA is a critical tool used by institutional broker-dealers and buyside firms to
 - **Data Source** — Yahoo Finance (6 months of daily OHLCV data)
 - **Output** — Visualizations (PNG) and Excel summary report
 
-## Project Structure
-\```
-tca-execution-analysis/
-│
-├── tca_analysis.py          
-├── visuals/
-│   ├── tca_dashboard.png           
-│   └── implementation_shortfall.png 
-├── reports/
-│   └── tca_summary_report.xlsx     
-└── README.md
-\```
-
 ## How to Run
 ```bash
 git clone https://github.com/KaustubhBaskaran/tca-execution-analysis
