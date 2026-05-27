@@ -23,15 +23,17 @@ TCA is a critical tool used by institutional broker-dealers and buyside firms to
 - **Output** — Visualizations (PNG) and Excel summary report
 
 ## Project Structure
+\```
 tca-execution-analysis/
 │
-├── tca_analysis.py          # Main analysis script
+├── tca_analysis.py          
 ├── visuals/
-│   ├── tca_dashboard.png           # Slippage, spread, market impact charts
-│   └── implementation_shortfall.png # IS distribution by ticker
+│   ├── tca_dashboard.png           
+│   └── implementation_shortfall.png 
 ├── reports/
-│   └── tca_summary_report.xlsx     # Summary metrics table
+│   └── tca_summary_report.xlsx     
 └── README.md
+\```
 
 ## How to Run
 ```bash
